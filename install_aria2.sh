@@ -42,7 +42,7 @@ function setting(){
 	#下载webui-aria2
 	wget -P /data/aria2 https://codeload.github.com/ziahamza/webui-aria2/zip/master
 	cd /data/aria2
-	unzip master.zip
+	unzip webui-aria2-master.zip
 	mv webui-aria2-master/* ./
 	
 	#下载caddy server
