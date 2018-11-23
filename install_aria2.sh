@@ -23,7 +23,10 @@ function centos6(){
 
 #debian or ubuntu安装
 function debian(){
+	apt-get -y update
+	apt-get -y upgrade
 	apt-get -y install curl
+	apt-get -y install unzip
 	apt-get -y install aria2
 }
 
