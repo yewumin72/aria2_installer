@@ -28,6 +28,7 @@ function debian(){
 	apt-get -y install curl
 	apt-get -y install unzip
 	apt-get -y install aria2
+	apt-get -y install firewall-cmd
 }
 
 #Aria2低版本设置
